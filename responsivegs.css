@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+
+section.get {
+  flex-wrap: wrap;
+  height: auto;
+}
+section {
+  flex-wrap: wrap;
+}
+article.card {
+  width: 250px;
+  height: 300px;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+ section {
+  flex-wrap: wrap;
+ }
+  section.get {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  article.card {
+    width: 250px;
+    height: 300px;
+  }
+ 
+}
+
+@media screen and (min-width:992px) {
+  #show {
+    display: none;
+  }
+  .h3 {
+    display: none;
+  }
+
+  
+  }
+

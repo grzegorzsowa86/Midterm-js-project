@@ -1,0 +1,180 @@
+* {
+width: auto;
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+body, html {
+  height: 100%;
+  text-align: center;
+}
+
+
+  
+#github {
+  font-size: 2rem;
+  text-align: right;
+  
+  color: white;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/book.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#btn {
+  width: auto;
+  background-color: brown;
+  font-weight: bolder
+}
+main {
+  height: 400px;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+}
+
+section {
+  height: auto;
+  background-color: yellow;
+  padding-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+
+}
+#violet {
+  background-color: blueviolet;
+  height: 200px;
+  width: auto;
+}
+article.card {
+  width: 300px;
+  height: 400px;
+  color: white;
+
+  margin-left: 20px;
+text-align: center;
+overflow: hidden;
+}
+.project {
+  background-color: red;
+  height: 200px;
+  width: auto;
+}
+h2 {
+  margin: 0;
+  font-weight: bold;
+  width: auto;
+}
+
+p {
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+}
+/*Get in Touch*/
+.get {
+color: white;
+align-items: right;
+box-sizing: border-box;
+display: flex;
+flex-direction: row-reverse;
+}
+.h3 {
+  width: auto;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+.form-container {
+  width: auto;
+  background-color: rgb(12, 42, 42);
+  border-radius: 6px;
+  margin: 30px auto;
+  padding: 25px;
+  text-align: left;
+}
+.formc {
+  width: 800px;
+}
+.form-group {
+  width: auto;
+}
+.card-heading {
+  font-size: 2rem;
+  width: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.label {
+  width: auto;
+  display: block;
+  
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  margin: 8px 0px;
+  padding: 10px 16px;
+  border-radius: 3px;
+}
+
+.input-field:hover {
+  background-color: #c6c6c68a;
+}
+
+#message {
+  height: 120px;
+  resize: none;
+}
+
+.submit-button {
+width: 100%;
+  background-color: #1ac0f3;
+  border: none;
+  padding: 14px 0;
+  cursor: pointer;
+  color: #fff;
+
+  border-radius: 3px;
+  font-weight: 100;
+}
+
+.submit-button:hover {
+  background-color: #brown;
+}
+
+#social {
+  font-size: 2rem;
+  width: 250px;
+  color: white;
+  text-align: right;
+}
+
+.collapsible-group {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.hide {
+  display: none;
+}
