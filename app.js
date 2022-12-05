@@ -5,9 +5,6 @@ const log = document.querySelector("#log");
 const name = document.querySelector("#name");
 // console.log(name);
 
-// add event listner to the form
-// when the submit button is pressed , then display the welcomne message
-
 function logSubmit(event) {
   event.preventDefault();
   // grab the value which is present inside input box
@@ -37,14 +34,16 @@ button.addEventListener("click", (event) => {
   event.currentTarget.textContent = "Go to bottom of page";
 });
 
-form.addEventListener("submit-button", logSubmit);
+const formE1 = document.querySelector(".form-container");
 
-function logSubmit(event) {
+formE1.addEventListener("submit-button", logSubmitSecond);
+
+function logSubmitSecond(event) {
   event.preventDefault();
-  log.textContent = `Form submitted! Welcome ${firstName.value}
+  console.log(`Form submitted! Welcome ${firstName.value}
     ${surName.value}
     ${email.value}
-    ${message.value}`;
+    ${message.value}`);
 }
 
 const toggleButton = document.querySelector("#toggle-reveal");
